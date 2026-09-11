@@ -934,12 +934,11 @@
   margin-top: var(--spacing-xl);
   border-bottom: none;
 }
- 
 .navigation-logo-icon {
   width: 150px;
-  height: 50px;
+  height: 90px;
 
-  background-image: url('alpfa_logo.png');
+  background-image: url('alpfa_logo.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left;
