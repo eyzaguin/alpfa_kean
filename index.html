@@ -1,0 +1,1397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ALPFA Kean University</title>
+    <meta property="og:title" content="ALPFA Kean University" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Roboto;
+        font-size: 1rem;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: undefined;
+        text-transform: undefined;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--color-on-surface);
+        background: var(--color-surface);
+
+        fill: var(--color-on-surface);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container1">
+        <navigation-wrapper class="navigation-wrapper">
+          <!--Navigation component-->
+          <div class="navigation-container1">
+            <div class="navigation-container2">
+              <div class="navigation-container3">
+                <style>
+                  @media (prefers-reduced-motion: reduce) {
+                  .navigation-brand-link, .navigation-link, .navigation-mobile-toggle, .navigation-toggle-icon, .navigation-mobile-overlay, .navigation-mobile-item, .navigation-mobile-link, .navigation-cta {
+                    transition: none;
+                  }
+                  .navigation-link::before {
+                    transition: none;
+                  }
+                  }
+                </style>
+              </div>
+            </div>
+            <div class="navigation-container4">
+              <div class="navigation-container5">
+                <script defer="" data-name="navigation">
+                  (function(){
+                    const navigationToggle = document.getElementById('navigationToggle')
+                    const navigationOverlay = document.getElementById('navigationOverlay')
+                    const navigationLinks = document.getElementById('navigationLinks')
+
+                    function toggleMobileMenu() {
+                      const isExpanded = navigationToggle.getAttribute('aria-expanded') === 'true'
+                      const newState = !isExpanded
+
+                      navigationToggle.setAttribute('aria-expanded', newState.toString())
+
+                      if (newState) {
+                        navigationOverlay.classList.add('navigation-mobile-active')
+                        document.body.style.overflow = 'hidden'
+                      } else {
+                        navigationOverlay.classList.remove('navigation-mobile-active')
+                        document.body.style.overflow = ''
+                      }
+                    }
+
+                    function closeMobileMenu() {
+                      navigationToggle.setAttribute('aria-expanded', 'false')
+                      navigationOverlay.classList.remove('navigation-mobile-active')
+                      document.body.style.overflow = ''
+                    }
+
+                    // Toggle menu on button click
+                    navigationToggle.addEventListener('click', toggleMobileMenu)
+
+                    // Close menu when clicking on mobile links
+                    const mobileLinks = navigationOverlay.querySelectorAll(
+                      '.navigation-mobile-link'
+                    )
+                    mobileLinks.forEach((link) => {
+                      link.addEventListener('click', closeMobileMenu)
+                    })
+
+                    // Close menu on escape key
+                    document.addEventListener('keydown', (e) => {
+                      if (
+                        e.key === 'Escape' &&
+                        navigationOverlay.classList.contains('navigation-mobile-active')
+                      ) {
+                        closeMobileMenu()
+                      }
+                    })
+
+                    // Close menu when clicking outside on larger screens
+                    document.addEventListener('click', (e) => {
+                      const isClickInsideNav =
+                        navigationToggle.contains(e.target) ||
+                        navigationOverlay.contains(e.target)
+
+                      if (
+                        !isClickInsideNav &&
+                        navigationOverlay.classList.contains('navigation-mobile-active')
+                      ) {
+                        closeMobileMenu()
+                      }
+                    })
+
+                    // Handle window resize to close mobile menu when switching to desktop
+                    window.addEventListener('resize', () => {
+                      if (
+                        window.innerWidth > 991 &&
+                        navigationOverlay.classList.contains('navigation-mobile-active')
+                      ) {
+                        closeMobileMenu()
+                      }
+                    })
+                  })()
+                </script>
+              </div>
+            </div>
+            <nav
+              role="navigation"
+              aria-label="Main navigation"
+              class="navigation-wrapper"
+            >
+              <div class="navigation-container">
+                <div class="navigation-brand">
+                  <a href="index.html">
+                    <div
+                      aria-label="ALPFA Kean University homepage"
+                      class="navigation-brand-link"
+                    >
+                    <!--FIIXXXXXXXX-->
+                      <div class="navigation-logo">
+                        <div class="navigation-logo-icon"> 
+                         
+                        </div>
+                        <div class="navigation-logo-text">
+                          <span class="navigation-logo-title">Kean University</span>
+                          <span class="navigation-logo-subtitle">
+                            College of Business & Public Management
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div id="navigationLinks" class="navigation-links">
+                  <ul role="menubar" class="navigation-menu">
+                  <!--  <li role="none" class="navigation-item">
+                      <a href="membership.html">
+                        <div role="menuitem" class="navigation-link">
+                          <span>Membership</span>
+                        </div>
+                      </a>
+                    </li>   -->
+                    
+                    <!--NEW LINKS-->
+                  <li role="none" class="navigation-item">
+                      <a href="membership.html">
+                        <div role="menuitem" class="navigation-link">
+                          <span>Our Eboard</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li role="none" class="navigation-item">
+                      <a href="mentorship-career-resources.html">
+                        <div role="menuitem" class="navigation-link">
+                          <span> Our Events</span>
+                        </div>
+                      </a>
+                    </li>
+                    <!--END OF NEW LINKS-->
+                    <li role="none" class="navigation-item navigation-item-cta">
+                      <a href="applynow.html">
+                        <div class="navigation-cta btn btn-primary">
+                          <span>Join Today</span>
+                        </div>
+                      </a>
+                    </li>
+                  
+                  </ul>
+                </div>
+                <button
+                  id="navigationToggle"
+                  aria-label="Toggle navigation menu"
+                  aria-expanded="false"
+                  aria-controls="navigationLinks"
+                  class="navigation-mobile-toggle"
+                >
+                  <span
+                    class="navigation-navigation-toggle-icon1 navigation-toggle-menu"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4 5h16M4 12h16M4 19h16"
+                      ></path>
+                    </svg>
+                  </span>
+                  <span class="navigation-navigation-toggle-icon2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M18 6L6 18M6 6l12 12"
+                      ></path>
+                    </svg>
+                  </span>
+                </button>
+              </div>
+              <div id="navigationOverlay" class="navigation-mobile-overlay">
+                <div class="navigation-mobile-menu">
+                  <ul role="menubar" class="navigation-mobile-list">
+                    <li role="none" class="navigation-mobile-item">
+                      <a href="membership.html">
+                        <div role="menuitem" class="navigation-mobile-link">
+                          <span>Our Eboard</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li role="none" class="navigation-mobile-item">
+                      <a href="mentorship.html">
+                        <div role="menuitem" class="navigation-mobile-link">
+                          <span>Our Eboard &amp; Career Resources</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li
+                      role="none"
+                      class="navigation-mobile-item navigation-mobile-item-cta"
+                    >
+                      <a href="membership.html">
+                        <div class="navigation-mobile-cta btn btn-primary">
+                          <span>Join Today</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </navigation-wrapper>
+        <div class="home-container2">
+          <div class="home-container3">
+            <style>
+                      @keyframes float {0%,100% {transform: translateY(0px);}
+              50% {transform: translateY(-10px);}}
+            </style>
+          </div>
+        </div>
+        <div class="home-container4">
+          <div class="home-container5">
+            <style>
+              @media (prefers-reduced-motion: reduce) {
+              * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+              }
+              .floating-badge {
+                animation: none;
+              }
+              }
+            </style>
+          </div>
+        </div>
+        <div class="home-container6">
+          <div class="home-container7">
+            <script defer="" data-name="ALPFA Kean Homepage">
+              (function(){
+                // Intersection Observer for scroll animations
+                const observerOptions = {
+                  threshold: 0.1,
+                  rootMargin: '0px 0px -50px 0px',
+                }
+
+                const observer = new IntersectionObserver((entries) => {
+                  entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                      entry.target.style.opacity = '1'
+                      entry.target.style.transform = 'translateY(0)'
+                    }
+                  })
+                }, observerOptions)
+
+                // Initialize scroll animations
+                const animatedElements = document.querySelectorAll(
+                  '.mission-card, .event-card, .benefit-item, .success-card'
+                )
+                animatedElements.forEach((el) => {
+                  el.style.opacity = '0'
+                  el.style.transform = 'translateY(30px)'
+                  el.style.transition = 'opacity 0.6s ease, transform 0.6s ease'
+                  observer.observe(el)
+                })
+
+                // Stagger animation for hero stats
+                const heroStats = document.querySelectorAll('.stat-item')
+                heroStats.forEach((stat, index) => {
+                  stat.style.opacity = '0'
+                  stat.style.transform = 'translateY(20px)'
+                  stat.style.transition = 'opacity 0.6s ease, transform 0.6s ease'
+
+                  setTimeout(() => {
+                    stat.style.opacity = '1'
+                    stat.style.transform = 'translateY(0)'
+                  }, 500 + index * 200)
+                })
+
+                // Enhanced hover effects for event cards
+                const eventCards = document.querySelectorAll('.event-card')
+                eventCards.forEach((card) => {
+                  card.addEventListener('mouseenter', () => {
+                    card.style.transform = 'translateY(-8px) scale(1.02)'
+                  })
+
+                  card.addEventListener('mouseleave', () => {
+                    card.style.transform = 'translateY(0) scale(1)'
+                  })
+                })
+
+                // Parallax effect for hero section
+                let ticking = false
+
+                function updateParallax() {
+                  const scrolled = window.pageYOffset
+                  const heroBackground = document.querySelector('.hero-background')
+                  const heroContent = document.querySelector('.hero-content')
+
+                  if (heroBackground) {
+                    const parallax = scrolled * 0.5
+                    heroBackground.style.transform = `translateY(${parallax}px)`
+                  }
+
+                  if (heroContent) {
+                    const fadeOut = Math.max(0, 1 - scrolled / window.innerHeight)
+                    heroContent.style.opacity = fadeOut
+                  }
+
+                  ticking = false
+                }
+
+                function requestParallaxTick() {
+                  if (!ticking) {
+                    requestAnimationFrame(updateParallax)
+                    ticking = true
+                  }
+                }
+
+                window.addEventListener('scroll', requestParallaxTick, { passive: true })
+
+                // Counter animation for stats
+                function animateCounter(element, target, duration = 2000) {
+                  let start = 0
+                  const increment = target / (duration / 16)
+
+                  function updateCounter() {
+                    start += increment
+                    if (start < target) {
+                      element.textContent = Math.ceil(start)
+                      requestAnimationFrame(updateCounter)
+                    } else {
+                      element.textContent = target
+                    }
+                  }
+
+                  updateCounter()
+                }
+
+                // Initialize counter animations when stats come into view
+                const statsObserver = new IntersectionObserver(
+                  (entries) => {
+                    entries.forEach((entry) => {
+                      if (entry.isIntersecting) {
+                        const numberElement = entry.target.querySelector('.stat-number')
+                        const text = numberElement.textContent
+                        const number = parseInt(text.replace(/[^\d]/g, ''))
+
+                        if (number) {
+                          numberElement.textContent = '0'
+                          setTimeout(() => {
+                            animateCounter(numberElement, number)
+                          }, 500)
+                        }
+
+                        statsObserver.unobserve(entry.target)
+                      }
+                    })
+                  },
+                  { threshold: 0.5 }
+                )
+
+                heroStats.forEach((stat) => statsObserver.observe(stat))
+
+                // Email link handler
+                const emailLinks = document.querySelectorAll(
+                  'a[href*='mailto'], .contact-info'
+                )
+                emailLinks.forEach((link) => {
+                  link.addEventListener('click', (e) => {
+                    if (link.classList.contains('contact-info')) {
+                      e.preventDefault()
+                      window.location.href = 'mailto:keanalpfa@kean.edu'
+                    }
+                  })
+                })
+
+                // Form submission handling (if forms are added later)
+                function handleFormSubmission(formElement) {
+                  formElement.addEventListener('submit', (e) => {
+                    e.preventDefault()
+
+                    // Add loading state
+                    const submitButton = formElement.querySelector('button[type='submit']')
+                    const originalText = submitButton.textContent
+                    submitButton.textContent = 'Submitting...'
+                    submitButton.disabled = true
+
+                    // Simulate form submission
+                    setTimeout(() => {
+                      submitButton.textContent = 'Thank you!'
+                      setTimeout(() => {
+                        submitButton.textContent = originalText
+                        submitButton.disabled = false
+                      }, 2000)
+                    }, 1000)
+                  })
+                }
+
+                // Initialize any forms that might be present
+                const forms = document.querySelectorAll('form')
+                forms.forEach(handleFormSubmission)
+
+                // Enhanced accessibility for keyboard navigation
+                const focusableElements = document.querySelectorAll(
+                  'button, a, [tabindex]:not([tabindex='-1'])'
+                )
+                focusableElements.forEach((element) => {
+                  element.addEventListener('focus', () => {
+                    element.style.outline = `2px solid var(--color-primary)`
+                    element.style.outlineOffset = '2px'
+                  })
+
+                  element.addEventListener('blur', () => {
+                    element.style.outline = 'none'
+                  })
+                })
+
+                // Performance optimization: lazy load images below the fold
+                const imageObserver = new IntersectionObserver((entries) => {
+                  entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                      const img = entry.target
+                      if (img.dataset.src) {
+                        img.src = img.dataset.src
+                        img.removeAttribute('data-src')
+                        imageObserver.unobserve(img)
+                      }
+                    }
+                  })
+                })
+
+                // Apply lazy loading to images not in hero section
+                const lazyImages = document.querySelectorAll('img:not(.hero-section img)')
+                lazyImages.forEach((img) => {
+                  if (img.src) {
+                    img.dataset.src = img.src
+                    img.src =
+                      'data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3C/svg%3E'
+                    imageObserver.observe(img)
+                  }
+                })
+              })()
+            </script>
+          </div>
+        </div>
+        <section class="hero-section">
+          <div class="hero-background">
+            <div class="hero-overlay"></div>
+          </div>
+          <div class="hero-content">
+            <div class="hero-badge">
+              <span>Est. 1972</span>
+              <div class="badge-divider"></div>
+  
+            </div>
+            <h1 class="hero-title">
+              <span>Empowering Latino Professional Leaders
+              <span>at Kean University</span>
+            </h1>
+            
+            <p class="hero-subtitle">
+              Join ALPFA Kean to expand your network, develop leadership skills, and unlock professional opportunities.
+            </p>
+            <div class="hero-actions">
+              <button class="btn btn-primary btn-lg">Join Our Community</button>
+              <a href="mentorship-career-resources.html" <button class="btn btn-lg btn-outline">Explore Events</button>
+                </a>
+            </div>
+            <div class="hero-stats">
+              <div class="stat-item">
+                <div class="stat-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    >
+                      <path
+                        d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M16 3.128a4 4 0 0 1 0 7.744M22 21v-2a4 4 0 0 0-3-3.87"
+                      ></path>
+                      <circle cx="9" cy="7" r="4"></circle>
+                    </g>
+                  </svg>
+                </div>
+                <div class="stat-text">
+                  <div class="stat-number"><span>Loyal</span></div>
+                  <div class="stat-label"><span>Active Members</span></div>
+                </div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    >
+                      <path d="M8 2v4m8-4v4"></path>
+                      <rect width="18" height="18" x="3" y="4" rx="2"></rect>
+                      <path d="M3 10h18"></path>
+                    </g>
+                  </svg>
+                </div>
+                <div class="stat-text">
+                  <div class="stat-number"><span>30+</span></div>
+                  <div class="stat-label"><span>Annual Events</span></div>
+                </div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    >
+                      <path
+                        d="m15.477 12.89l1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"
+                      ></path>
+                      <circle cx="12" cy="8" r="6"></circle>
+                    </g>
+                  </svg>
+                </div>
+                <div class="stat-text">
+                  <div class="stat-number"><span>53 Years</span></div>
+                  <div class="stat-label">
+                    <span>Legacy of Excellence</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="mission-section">
+          <div class="mission-container">
+            <div class="mission-content">
+              <div class="section-header">
+                <div class="section-badge"><span>Our Mission</span></div>
+                <h2 class="section-title">
+                  Building Tomorrow's Latino Leaders
+                </h2>
+                <p class="section-subtitle">
+                  We strive to equip high-achieving students with the skills and
+                  confidence necessary to excel in their chosen fields through
+                  mentorship, professional development, and inclusive community
+                  building.
+                </p>
+              </div>
+              <div class="mission-grid">
+                <div class="mission-card">
+                  <div class="card-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      >
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <circle cx="12" cy="12" r="6"></circle>
+                        <circle cx="12" cy="12" r="2"></circle>
+                      </g>
+                    </svg>
+                  </div>
+                  <h3>Professional Excellence</h3>
+                  <p>
+                    Developing leadership skills and career readiness through
+                    workshops, mentorship, and industry connections.
+                  </p>
+                </div>
+                <div class="mission-card">
+                  <div class="card-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      >
+                        <path
+                          d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M16 3.128a4 4 0 0 1 0 7.744M22 21v-2a4 4 0 0 0-3-3.87"
+                        ></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                      </g>
+                    </svg>
+                  </div>
+                  <h3>Inclusive Community</h3>
+                  <p>
+                    Fostering a diverse environment where every member feels
+                    supported, valued, and empowered to succeed.
+                  </p>
+                </div>
+                <div class="mission-card">
+                  <div class="card-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M15 14c.2-1 .7-1.7 1.5-2.5c1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5c.7.7 1.3 1.5 1.5 2.5m0 4h6m-5 4h4"
+                      ></path>
+                    </svg>
+                  </div>
+                  <h3>Innovation &amp; Growth</h3>
+                  <p>
+                    Encouraging creative thinking and continuous learning to
+                    prepare members for evolving professional landscapes.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="mission-visual">
+              <div class="image-stack">
+                <img
+                  src="insert image here"
+                  alt="insert image here"
+                  class="stack-image primary"
+                />
+                <img
+                  src="insert image here"
+                  alt="insert image here"
+                  class="stack-image secondary"
+                />
+                <div class="floating-badge">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"
+                    ></path>
+                  </svg>
+                  <span>Excellence</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="events-section">
+          <div class="events-container">
+            <div class="section-header">
+              <div class="section-badge"><span>What's Next</span></div>
+              <h2 class="section-title">Upcoming Events &amp; Opportunities</h2> 
+              <p class="section-subtitle" >
+               Join us for workshops, networking sessions, and professional
+                development events designed to advance your career and expand
+                your network.
+            
+              </p>
+              <a href="https://kean.campuslabs.com/engage/organization/keanalpfa/events" 
+   class="btn btn-primary" target="_blank">
+   View Upcoming Events
+</a>
+        </section>
+        <section class="membership-section">
+          <div class="membership-container">
+            <div class="membership-content">
+              <div class="section-header">
+                <div class="section-badge"><span>Join Us</span></div>
+                <h2 class="section-title">
+                  Unlock Your Professional Potential
+                </h2>
+                <p class="section-subtitle">
+                  Become part of a vibrant community that prioritizes your
+                  growth and success. Access exclusive resources, networking
+                  opportunities, and career development programs.
+                </p>
+              </div>
+              <div class="benefits-grid">
+                <div class="benefit-item">
+                  <div class="benefit-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      >
+                        <path
+                          d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M16 3.128a4 4 0 0 1 0 7.744M22 21v-2a4 4 0 0 0-3-3.87"
+                        ></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                      </g>
+                    </svg>
+                  </div>
+                  <h3>Professional Network</h3>
+                  <p>
+                    Connect with 100+ Latino professionals nationwide and
+                    expand your career opportunities.
+                  </p>
+                </div>
+                <div class="benefit-item">
+                  <div class="benefit-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M15 14c.2-1 .7-1.7 1.5-2.5c1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5c.7.7 1.3 1.5 1.5 2.5m0 4h6m-5 4h4"
+                      ></path>
+                    </svg>
+                  </div>
+                  <h3>Skill Development</h3>
+                  <p>
+                    Access exclusive workshops, training sessions, and
+                    professional development resources.
+                  </p>
+                </div>
+                <div class="benefit-item">
+                  <div class="benefit-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <h3>Leadership Opportunities</h3>
+                  <p>
+                    Develop leadership skills through committee roles and
+                    chapter management positions.
+                  </p>
+                </div>
+                <div class="benefit-item">
+                  <div class="benefit-icon">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      >
+                        <path
+                          d="m15.477 12.89l1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"
+                        ></path>
+                        <circle cx="12" cy="8" r="6"></circle>
+                      </g>
+                    </svg>
+                  </div>
+                  <h3>Recognition Programs</h3>
+                  <p>
+                    Earn recognition for academic excellence and professional
+                    achievements within the community.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="membership-cta">
+              <div class="cta-card">
+                <div class="cta-content">
+                  <h3>Ready to Join ALPFA Kean?</h3>
+                  <p>
+                    Take the first step towards unlocking your potential and
+                    building a successful professional future.
+                  </p>
+                  <div class="cta-actions">
+                    <a href="applynow.html">
+  <button class="btn btn-primary btn-lg">
+    Interest Form
+  </button>
+</a>
+                    <div class="contact-info">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                        >
+                          <path
+                            d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+                          ></path>
+                          <rect
+                            width="20"
+                            height="16"
+                            x="2"
+                            y="4"
+                            rx="2"
+                          ></rect>
+                        </g>
+                      </svg>
+                      <span>keanalpfa@kean.edu</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="cta-image">
+                  <img
+                    src="images/alpfa_group.jpg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940"
+                    alt="Three women working together on laptops in a casual office setting, emphasizing teamwork and collaboration."
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+       
+        <footer-wrapper class="footer-wrapper">
+          <!--Footer component-->
+          <div class="footer-container">
+            <footer class="footer-container">
+              <div class="footer-main-content">
+                <div class="footer-brand-section">
+                  <div class="footer-logo-wrapper">
+                    <h2 class="footer-brand-name">ALPFA Kean</h2>
+                    <p class="footer-tagline">
+                      Association of Latino Professionals for America
+                    </p>
+                  </div>
+                  <p class="footer-description">
+                    Empowering the next generation of Latino leaders through
+                    professional development, mentorship, and career
+                    opportunities since 1972.
+                  </p>
+                  <div class="footer-stats">
+                    <div class="footer-stat-item">
+                      <div class="footer-stat-icon">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                        >
+                          <g
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                          >
+                            <path
+                              d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M16 3.128a4 4 0 0 1 0 7.744M22 21v-2a4 4 0 0 0-3-3.87"
+                            ></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                          </g>
+                        </svg>
+                      </div>
+                      <div class="footer-stat-content">
+                        <span class="footer-stat-number">50+</span>
+                        <span class="footer-stat-label">
+                          Members Nationwide
+                        </span>
+                      </div>
+                    </div>
+                    <div class="footer-stat-item">
+                      <div class="footer-stat-icon">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                        >
+                          <g
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                          >
+                            <path
+                              d="m15.477 12.89l1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"
+                            ></path>
+                            <circle cx="12" cy="8" r="6"></circle>
+                          </g>
+                        </svg>
+                      </div>
+                      <div class="footer-stat-content">
+                        <span class="footer-stat-number">50+</span>
+                        <span class="footer-stat-label">
+                          Years of Excellence
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer-navigation-grid">
+                  <nav class="footer-nav-column">
+                    <h3 class="footer-nav-title">Organization</h3>
+                    <ul class="footer-nav-list">
+                      <li>
+                        <a href="#">
+                          <div class="footer-nav-link">
+                            <span>Homepage</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="footer-nav-link">
+                            <span>About ALPFA</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="footer-nav-link">
+                            <span>Leadership Team</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="footer-nav-link">
+                            <span>Chapter History</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="footer-nav-link">
+                            <span>National Network</span>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                  <nav class="footer-nav-column">
+                    <h3 class="footer-nav-title">Membership</h3>
+                    <ul class="footer-nav-list">
+                      <li>
+                        <a href="#">
+                          <div class="footer-nav-link">
+                            <span>Membership</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="footer-nav-link">
+                            <span>Join Today</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="footer-nav-link">
+                            <span>Member Benefits</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="footer-nav-link">
+                            <span>Student Chapters</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="footer-nav-link">
+                            <span>Alumni Network</span>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                  <nav class="footer-nav-column">
+                    <h3 class="footer-nav-title">Resources</h3>
+                    <ul class="footer-nav-list">
+                      <li>
+                        <a href="#">
+                          <div class="footer-nav-link">
+                            <span>Mentorship &amp; Career Resources</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="footer-nav-link">
+                            <span>Professional Development</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="footer-nav-link">
+                            <span>Workshops &amp; Events</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="footer-nav-link">
+                            <span>Networking Opportunities</span>
+                          </div>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <div class="footer-nav-link">
+                            <span>Career Center</span>
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                  <div class="footer-contact-section">
+                    <h3 class="footer-nav-title">Get Connected</h3>
+                    <div class="footer-contact-info">
+                      <div class="footer-contact-item">
+                        <div class="footer-contact-icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                          >
+                            <g
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                            >
+                              <path
+                                d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+                              ></path>
+                              <rect
+                                width="20"
+                                height="16"
+                                x="2"
+                                y="4"
+                                rx="2"
+                              ></rect>
+                            </g>
+                          </svg>
+                        </div>
+                        <a href="mailto:keanalpfa@kean.edu?subject=">
+                          <div class="footer-contact-link">
+                            <span>keanalpfa@kean.edu</span>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="footer-contact-item">
+                        <div class="footer-contact-icon">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"
+                            ></path>
+                          </svg>
+                        </div>
+                        <span class="footer-contact-text">
+                          Kean University Campus
+                        </span>
+                      </div>
+                    </div>
+                    <div class="footer-social-section">
+                      <h4 class="footer-social-title">Follow Our Journey</h4>
+                      <div class="footer-social-links">
+                        <a href="#">
+                          <div aria-label="Facebook" class="footer-social-link">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                              ></path>
+                            </svg>
+                          </div>
+                        </a>
+                        
+                        <a href="https://www.linkedin.com/in/alpfa-kean-university/">
+                          <div aria-label="LinkedIn" class="footer-social-link">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                            >
+                              <g
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                              >
+                                <path
+                                  d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2a2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6M2 9h4v12H2z"
+                                ></path>
+                                <circle cx="4" cy="4" r="2"></circle>
+                              </g>
+                            </svg>
+                          </div>
+                        </a>
+                        <a href="#">
+                          <div
+                            aria-label="Instagram"
+                            class="footer-social-link"
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                            >
+                              <g
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                              >
+                                <rect
+                                  width="20"
+                                  height="20"
+                                  x="2"
+                                  y="2"
+                                  rx="5"
+                                  ry="5"
+                                ></rect>
+                                <path
+                                  d="M16 11.37A4 4 0 1 1 12.63 8A4 4 0 0 1 16 11.37m1.5-4.87h.01"
+                                ></path>
+                              </g>
+                            </svg>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-newsletter-banner">
+                <div class="footer-newsletter-content">
+                  <div class="footer-newsletter-text">
+                    <h3 class="footer-newsletter-title">
+                      Stay Updated on Opportunities
+                    </h3>
+                    <p class="footer-newsletter-description">
+                      Get the latest news on workshops, networking events, and
+                      career opportunities delivered to your inbox.
+                    </p>
+                  </div>
+                  <div class="footer-newsletter-form">
+                    <input
+                      type="email"
+                      placeholder="Enter your email address"
+                      aria-label="Email address for newsletter"
+                      class="footer-newsletter-input"
+                    />
+                    <button
+                      type="submit"
+                      class="footer-newsletter-btn btn btn-primary"
+                    >
+                      Subscribe
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-bottom-section">
+                <div class="footer-bottom-content">
+                  <div class="footer-copyright">
+                    <p class="footer-copyright-text">
+                      © 2025 ALPFA Kean Chapter. All rights reserved.
+                    </p>
+                    <p class="footer-affiliation">
+                      Affiliated with the Association of Latino Professionals
+                      for America
+                    </p>
+                  </div>
+                  <div class="footer-legal-links">
+                    <a href="#">
+                      <div class="footer-legal-link">
+                        <span>Privacy Policy</span>
+                      </div>
+                    </a>
+                    <a href="#">
+                      <div class="footer-legal-link">
+                        <span>Terms of Service</span>
+                      </div>
+                    </a>
+                    <a href="#">
+                      <div class="footer-legal-link">
+                        <span>Code of Conduct</span>
+                      </div>
+                    </a>
+                    <a href="#">
+                      <div class="footer-legal-link">
+                        <span>Accessibility</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </footer>
+          </div>
+        </footer-wrapper>
+        
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 19 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="home-icon52"
+            >
+            </svg>
+          
+          </div>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Our Eboard - ALPFA Kean University</title>
+    <meta property="og:title" content="Our Eboard - ALPFA Kean University" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Roboto;
+        font-size: 1rem;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: undefined;
+        text-transform: undefined;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--color-on-surface);
+        background: var(--color-surface);
+
+        fill: var(--color-on-surface);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./membership.css" rel="stylesheet" />
+
+      <div class="membership-container1">
+        <navigation-wrapper class="navigation-wrapper">
+          <!--Navigation component-->
+          <div class="navigation-container1">
+            <div class="navigation-container2">
+              <div class="navigation-container3">
+                <style>
+                  @media (prefers-reduced-motion: reduce) {
+                  .navigation-brand-link, .navigation-link, .navigation-mobile-toggle, .navigation-toggle-icon, .navigation-mobile-overlay, .navigation-mobile-item, .navigation-mobile-link, .navigation-cta {
+                    transition: none;
+                  }
+                  .navigation-link::before {
+                    transition: none;
+                  }
+                  }
+                </style>
+              </div>
+            </div>
+            <div class="navigation-container4">
+              <div class="navigation-container5">
+                <script defer="" data-name="navigation">
+                  (function(){
+                    const navigationToggle = document.getElementById('navigationToggle')
+                    const navigationOverlay = document.getElementById('navigationOverlay')
+                    const navigationLinks = document.getElementById('navigationLinks')
+
+                    function toggleMobileMenu() {
+                      const isExpanded = navigationToggle.getAttribute('aria-expanded') === 'true'
+                      const newState = !isExpanded
+
+                      navigationToggle.setAttribute('aria-expanded', newState.toString())
+
+                      if (newState) {
+                        navigationOverlay.classList.add('navigation-mobile-active')
+                        document.body.style.overflow = 'hidden'
+                      } else {
+                        navigationOverlay.classList.remove('navigation-mobile-active')
+                        document.body.style.overflow = ''
+                      }
+                    }
+
+                    function closeMobileMenu() {
+                      navigationToggle.setAttribute('aria-expanded', 'false')
+                      navigationOverlay.classList.remove('navigation-mobile-active')
+                      document.body.style.overflow = ''
+                    }
+
+                    // Toggle menu on button click
+                    navigationToggle.addEventListener('click', toggleMobileMenu)
+
+                    // Close menu when clicking on mobile links
+                    const mobileLinks = navigationOverlay.querySelectorAll(
+                      '.navigation-mobile-link'
+                    )
+                    mobileLinks.forEach((link) => {
+                      link.addEventListener('click', closeMobileMenu)
+                    })
+
+                    // Close menu on escape key
+                    document.addEventListener('keydown', (e) => {
+                      if (
+                        e.key === 'Escape' &&
+                        navigationOverlay.classList.contains('navigation-mobile-active')
+                      ) {
+                        closeMobileMenu()
+                      }
+                    })
+
+                    // Close menu when clicking outside on larger screens
+                    document.addEventListener('click', (e) => {
+                      const isClickInsideNav =
+                        navigationToggle.contains(e.target) ||
+                        navigationOverlay.contains(e.target)
+
+                      if (
+                        !isClickInsideNav &&
+                        navigationOverlay.classList.contains('navigation-mobile-active')
+                      ) {
+                        closeMobileMenu()
+                      }
+                    })
+
+                    // Handle window resize to close mobile menu when switching to desktop
+                    window.addEventListener('resize', () => {
+                      if (
+                        window.innerWidth > 991 &&
+                        navigationOverlay.classList.contains('navigation-mobile-active')
+                      ) {
+                        closeMobileMenu()
+                      }
+                    })
+                  })()
+                </script>
+              </div>
+            </div>
+            <nav
+              role="navigation"
+              aria-label="Main navigation"
+              class="navigation-wrapper"
+            >
+              <div class="navigation-container">
+                <div class="navigation-brand">
+                  <a href="index.html">
+                    <div
+                      aria-label="ALPFA Kean University homepage"
+                      class="navigation-brand-link"
+                    >
+                      <div class="navigation-logo">
+                        <div class="navigation-logo-icon"></div>
+                        <div class="navigation-logo-text">
+                          <span class="navigation-logo-title">Kean University</span>
+                          <span class="navigation-logo-subtitle">
+                            College of Business & Public Management 
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div id="navigationLinks" class="navigation-links">
+                  <ul role="menubar" class="navigation-menu">
+                    <li role="none" class="navigation-item">
+                      <a href="membership.html">
+                        <div role="menuitem" class="navigation-link">
+                          <span>Our Eboard</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li role="none" class="navigation-item">
+                      <a href="mentorship-career-resources.html">
+                        <div role="menuitem" class="navigation-link">
+                          <span>Our Events</span>
+                        </div>
+                      </a>
+                    </li>
+                   <li role="none" class="navigation-item navigation-item-cta">
+                      <a href="applynow.html">
+                        <div class="navigation-cta btn btn-primary">
+                          <span>Join Today</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <button
+                  id="navigationToggle"
+                  aria-label="Toggle navigation menu"
+                  aria-expanded="false"
+                  aria-controls="navigationLinks"
+                  class="navigation-mobile-toggle"
+                >
+                  <span
+                    class="navigation-navigation-toggle-icon1 navigation-toggle-menu"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4 5h16M4 12h16M4 19h16"
+                      ></path>
+                    </svg>
+                  </span>
+                  <span class="navigation-navigation-toggle-icon2">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M18 6L6 18M6 6l12 12"
+                      ></path>
+                    </svg>
+                  </span>
+                </button>
+              </div>
+              <div id="navigationOverlay" class="navigation-mobile-overlay">
+                <div class="navigation-mobile-menu">
+                  <ul role="menubar" class="navigation-mobile-list">
+                    <li role="none" class="navigation-mobile-item">
+                      <a href="membership.html">
+                        <div role="menuitem" class="navigation-mobile-link">
+                          <span>Membership</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li role="none" class="navigation-mobile-item">
+                      <a href="mentorship-career-resources.html">
+                        <div role="menuitem" class="navigation-mobile-link">
+                          <span> Career Resources</span>
+                        </div>
+                      </a>
+                    </li>
+                 <li role="none" class="navigation-mobile-item navigation-mobile-item-cta">
+  <a href="applynow.html" class="navigation-mobile-cta btn btn-primary">
+      Join Today
+  </a>
+</li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </navigation-wrapper>
+        <div class="membership-container2">
+          <div class="membership-container3">
+            <script defer="" data-name="membership-interactions">
+              (function(){
+                // Testimonials Carousel
+                const testimonialsTrack = document.getElementById('testimonialsTrack')
+                const prevBtn = document.getElementById('prevBtn')
+                const nextBtn = document.getElementById('nextBtn')
+
+                let currentSlide = 0
+                const totalSlides = document.querySelectorAll('.testimonial-card').length
+                const slidesToShow = window.innerWidth > 767 ? 3 : 1
+                const maxSlide = totalSlides - slidesToShow
+
+                function updateCarousel() {
+                  const slideWidth = window.innerWidth > 767 ? 33.333 : 100
+                  const translateX = -currentSlide * slideWidth
+                  testimonialsTrack.style.transform = `translateX(${translateX}%)`
+
+                  // Update button states
+                  prevBtn.disabled = currentSlide <= 0
+                  nextBtn.disabled = currentSlide >= maxSlide
+
+                  prevBtn.style.opacity = currentSlide <= 0 ? '0.5' : '1'
+                  nextBtn.style.opacity = currentSlide >= maxSlide ? '0.5' : '1'
+                }
+
+                prevBtn.addEventListener('click', () => {
+                  if (currentSlide > 0) {
+                    currentSlide--
+                    updateCarousel()
+                  }
+                })
+
+                nextBtn.addEventListener('click', () => {
+                  if (currentSlide < maxSlide) {
+                    currentSlide++
+                    updateCarousel()
+                  }
+                })
+
+                // Auto-advance carousel
+                let autoSlideInterval = setInterval(() => {
+                  if (currentSlide >= maxSlide) {
+                    currentSlide = 0
+                  } else {
+                    currentSlide++
+                  }
+                  updateCarousel()
+                }, 5000)
+
+                // Pause auto-advance on hover
+                const carousel = document.querySelector('.testimonials-carousel')
+                carousel.addEventListener('mouseenter', () => {
+                  clearInterval(autoSlideInterval)
+                })
+
+                carousel.addEventListener('mouseleave', () => {
+                  autoSlideInterval = setInterval(() => {
+                    if (currentSlide >= maxSlide) {
+                      currentSlide = 0
+                    } else {
+                      currentSlide++
+                    }
+                    updateCarousel()
+                  }, 5000)
+                })
+
+                // Initialize carousel
+                updateCarousel()
+
+                // Responsive carousel updates
+                window.addEventListener('resize', () => {
+                  const newSlidesToShow = window.innerWidth > 767 ? 3 : 1
+                  const newMaxSlide = totalSlides - newSlidesToShow
+
+                  if (currentSlide > newMaxSlide) {
+                    currentSlide = newMaxSlide
+                  }
+
+                  updateCarousel()
+                })
+
+                // Benefits cards staggered animation
+                const observerOptions = {
+                  threshold: 0.1,
+                  rootMargin: '0px 0px -50px 0px',
+                }
+
+                const benefitCards = document.querySelectorAll('.benefit-card')
+                const cardObserver = new IntersectionObserver((entries) => {
+                  entries.forEach((entry, index) => {
+                    if (entry.isIntersecting) {
+                      setTimeout(() => {
+                        entry.target.style.opacity = '1'
+                        entry.target.style.transform = 'translateY(0)'
+                      }, index * 100)
+                    }
+                  })
+                }, observerOptions)
+
+                benefitCards.forEach((card) => {
+                  card.style.opacity = '0'
+                  card.style.transform = 'translateY(30px)'
+                  card.style.transition = 'opacity 0.6s ease, transform 0.6s ease'
+                  cardObserver.observe(card)
+                })
+
+                // Pricing cards animation
+                const pricingCards = document.querySelectorAll('.pricing-card')
+                const pricingObserver = new IntersectionObserver((entries) => {
+                  entries.forEach((entry, index) => {
+                    if (entry.isIntersecting) {
+                      setTimeout(() => {
+                        entry.target.style.opacity = '1'
+                        entry.target.style.transform = 'translateY(0) scale(1)'
+                      }, index * 150)
+                    }
+                  })
+                }, observerOptions)
+
+                pricingCards.forEach((card) => {
+                  card.style.opacity = '0'
+                  card.style.transform = 'translateY(30px) scale(0.95)'
+                  card.style.transition = 'opacity 0.8s ease, transform 0.8s ease'
+                  pricingObserver.observe(card)
+                })
+
+                // FAQ items animation
+                const faqItems = document.querySelectorAll('.faq-item')
+                const faqObserver = new IntersectionObserver((entries) => {
+                  entries.forEach((entry, index) => {
+                    if (entry.isIntersecting) {
+                      setTimeout(() => {
+                        entry.target.style.opacity = '1'
+                        entry.target.style.transform = 'translateY(0)'
+                      }, index * 75)
+                    }
+                  })
+                }, observerOptions)
+
+                faqItems.forEach((item) => {
+                  item.style.opacity = '0'
+                  item.style.transform = 'translateY(20px)'
+                  item.style.transition = 'opacity 0.5s ease, transform 0.5s ease'
+                  faqObserver.observe(item)
+                })
+
+                // Application steps progressive reveal
+                const stepItems = document.querySelectorAll('.application-steps li')
+                const stepsObserver = new IntersectionObserver((entries) => {
+                  entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                      const steps = entry.target.parentElement.querySelectorAll('li')
+                      steps.forEach((step, index) => {
+                        setTimeout(() => {
+                          step.style.opacity = '1'
+                          step.style.transform = 'translateX(0)'
+                        }, index * 200)
+                      })
+                    }
+                  })
+                }, observerOptions)
+
+                if (stepItems.length > 0) {
+                  stepItems.forEach((step) => {
+                    step.style.opacity = '0'
+                    step.style.transform = 'translateX(-20px)'
+                    step.style.transition = 'opacity 0.6s ease, transform 0.6s ease'
+                  })
+                  stepsObserver.observe(stepItems[0])
+                }
+
+                // Hero video performance optimization
+                const heroVideo = document.querySelector('.hero-background-video')
+                if (heroVideo) {
+                  // Reduce playback rate for subtle motion
+                  heroVideo.playbackRate = 0.75
+
+                  // Pause video when not visible
+                  const videoObserver = new IntersectionObserver((entries) => {
+                    entries.forEach((entry) => {
+                      if (entry.isIntersecting) {
+                        heroVideo.play()
+                      } else {
+                        heroVideo.pause()
+                      }
+                    })
+                  })
+
+                  videoObserver.observe(heroVideo)
+                }
+
+                // Smooth reveal for hero CTA panel
+                const ctaPanel = document.querySelector('.hero-cta-panel')
+                if (ctaPanel) {
+                  setTimeout(() => {
+                    ctaPanel.style.opacity = '1'
+                    ctaPanel.style.transform = 'translateY(0)'
+                  }, 800)
+
+                  ctaPanel.style.opacity = '0'
+                  ctaPanel.style.transform = 'translateY(30px)'
+                  ctaPanel.style.transition = 'opacity 1s ease, transform 1s ease'
+                }
+              })()
+            </script>
+          </div>
+        </div>
+        <section id="hero" class="hero-section1">
+          <div class="hero-video-container">
+  
+            <div class="hero-overlay1"></div>
+          </div>
+          <div class="hero-content1">
+            <div class="hero-text-content">
+              <h1 class="hero-title">Join Our Eboard</h1>
+             
+              <p class="hero-subtitle">
+                
+                A professional community dedicated to equipping ambitious
+                students with the skills, network, and mentorship that employers
+                trust.
+              </p>
+              <p class="hero-description">
+                Join a legacy of leadership and results: tailored professional
+                development, exclusive industry connections, and measurable
+                outcomes that prepare you for success across any major.
+              </p>
+            </div>
+            <div class="hero-cta-panel">
+              <div class="cta-content">
+                <h3>Ready to Transform Your Future?</h3>
+                <p>
+                  <p> </p>
+                  Access events, mentors, and career resources designed to
+                  accelerate your path to leadership. Don't hesitate, join now!
+                </p>
+                <!--APPLICATION FORM WEBSITE-->
+                <a href="applynow.html" button class= "btn btn-primary btn-xl">Apply Now</button> </a>
+                <div class="trust-indicators">
+                  <div class="indicator">
+                  </div>
+                  <div class="indicator">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="benefits" class="benefits-section">
+          <div class="benefits-container">
+            <div class="benefits-header">
+              <h2 class="section-title">Membership Benefits</h2>
+              <p class="section-subtitle">
+                Advance your professional trajectory with ALPFA Kean. Membership
+                delivers structured development, mentorship, and leadership
+                pathways designed to translate campus achievement into career
+                success.
+              </p>
+            </div>
+            <div class="benefits-grid1">
+              <div data-benefit="development" class="benefit-card">
+                <div class="benefit-icon1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    >
+                      <path
+                        d="M10 14.66v1.626a2 2 0 0 1-.976 1.696A5 5 0 0 0 7 21.978m7-7.318v1.626a2 2 0 0 0 .976 1.696A5 5 0 0 1 17 21.978M18 9h1.5a1 1 0 0 0 0-5H18M4 22h16"
+                      ></path>
+                      <path
+                        d="M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm0 0H4.5a1 1 0 0 1 0-5H6"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <h3>Professional Development</h3>
+                <p>
+                  Exclusive workshops, industry-led masterclasses, and
+                  resume-to-interview coaching focused on market-ready
+                  skills—finance, management, consulting, entrepreneurship, and
+                  more.
+                </p>
+              </div>
+              <div data-benefit="mentorship" class="benefit-card">
+                <div class="benefit-icon1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    >
+                      <path
+                        d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M16 3.128a4 4 0 0 1 0 7.744M22 21v-2a4 4 0 0 0-3-3.87"
+                      ></path>
+                      <circle cx="9" cy="7" r="4"></circle>
+                    </g>
+                  </svg>
+                </div>
+                <h3>Mentorship Network</h3>
+                <p>
+                  One-on-one and cohort mentorship with alumni and industry
+                  professionals. Targeted mentorship plans, regular check-ins,
+                  and portfolio reviews provide actionable guidance.
+                </p>
+              </div>
+              <div data-benefit="networking" class="benefit-card">
+                <div class="benefit-icon1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    >
+                      <rect width="6" height="6" x="16" y="16" rx="1"></rect>
+                      <rect width="6" height="6" x="2" y="16" rx="1"></rect>
+                      <rect width="6" height="6" x="9" y="2" rx="1"></rect>
+                      <path
+                        d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3m-7-4V8"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <h3>Strategic Networking</h3>
+                <p>
+                  Curated networking events, company meet-and-greets, and
+                  sector-specific mixers that connect members to recruiters and
+                  decision-makers.
+                </p>
+              </div>
+              <div data-benefit="leadership" class="benefit-card">
+                <div class="benefit-icon1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    >
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <circle cx="12" cy="12" r="6"></circle>
+                      <circle cx="12" cy="12" r="2"></circle>
+                    </g>
+                  </svg>
+                </div>
+                <h3>Leadership Experience</h3>
+                <p>
+                  Structured leadership tracks—project leads, committee chairs,
+                  and executive roles—offer real-world management experience and
+                  documented achievements.
+                </p>
+              </div>
+              <div data-benefit="resources" class="benefit-card">
+                <div class="benefit-icon1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    >
+                      <path
+                        d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"
+                      ></path>
+                      <rect width="20" height="14" x="2" y="6" rx="2"></rect>
+                    </g>
+                  </svg>
+                </div>
+                <h3>Career Resources &amp; Access</h3>
+                <p>
+                  Priority access to internship and job listings, employer
+                  panels, and fast-track interview opportunities with partner
+                  organizations.
+                </p>
+              </div>
+              <div data-benefit="recognition" class="benefit-card">
+                <div class="benefit-icon1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    >
+                      <path
+                        d="m15.477 12.89l1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"
+                      ></path>
+                      <circle cx="12" cy="8" r="6"></circle>
+                    </g>
+                  </svg>
+                </div>
+                <h3>Professional Recognition</h3>
+                <p>
+                  Earn tangible credentials through participation and
+                  leadership—certificates, recommendation letters, and spotlight
+                  features that demonstrate competence.
+                </p>
+              </div>
+              <div data-benefit="outcomes" class="benefit-card">
+                <div class="benefit-icon1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    >
+                      <path d="M3 3v16a2 2 0 0 0 2 2h16"></path>
+                      <path d="m19 9l-5 5l-4-4l-3 3"></path>
+                    </g>
+                  </svg>
+                </div>
+                <h3>Data-Driven Outcomes</h3>
+                <p>
+                  Our programming emphasizes measurable results—placement rates,
+                  internship conversions, and mentorship impact—so members can
+                  make informed decisions.
+                </p>
+              </div>
+              <div data-benefit="support" class="benefit-card">
+                <div class="benefit-icon1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
+                    ></path>
+                  </svg>
+                </div>
+                <h3>Confidential Support</h3>
+                <p>
+                  Personalized career advising and goal-setting sessions in a
+                  secure, professional environment to ensure each member's plan
+                  aligns with industry standards.
+                </p>
+              </div>
+              <div data-benefit="community" class="benefit-card">
+                <div class="benefit-icon1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676a.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"
+                    ></path>
+                  </svg>
+                </div>
+                <h3>Trusted Community</h3>
+                <p>
+                  Join a trusted community that bridges academic achievement and
+                  professional success—ALPFA Kean membership is a strategic
+                  investment in your career trajectory.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="apply" class="apply-section">
+          <div class="apply-container">
+            <div class="apply-header">
+              <h2 class="section-title">Join &amp; Apply</h2>
+              <p class="section-subtitle">
+                Ready to join ALPFA Kean and accelerate your professional
+                journey? Follow these straightforward steps to apply. We
+                prioritize clarity, fairness, and a smooth enrollment experience
+                for all majors and backgrounds.
+              </p>
+            </div>
+            <div class="apply-content">
+              <div class="apply-main-content">
+                <div class="apply-section-block">
+                  <h3>Eligibility</h3>
+                  <ul class="eligibility-list">
+                    <li>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M20 6L9 17l-5-5"
+                        ></path>
+                      </svg>
+                      <span>
+                        Current Kean University undergraduate or graduate
+                        student in good academic standing
+                      </span>
+                    </li>
+                    <li>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M20 6L9 17l-5-5"
+                        ></path>
+                      </svg>
+                      <span>
+                        Open to all majors committed to professional
+                        development, leadership, and community engagement
+                      </span>
+                    </li>
+                    <li>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M20 6L9 17l-5-5"
+                        ></path>
+                      </svg>
+                      <span>No prior chapter membership required</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="apply-section-block">
+                  <h3>Required Materials</h3>
+                  <ul class="materials-list">
+                    <li>
+                      <span>
+                        Completed membership application form (digital
+                        submission)
+                      </span>
+                    </li>
+                    <li>
+                      <span>
+                        Current Kean student ID number and university email
+                        address
+                      </span>
+                    </li>
+                    <li>
+                      <span>
+                        Brief personal statement (150–300 words) outlining your
+                        goals and what you hope to gain from ALPFA Kean
+                      </span>
+                    </li>
+                    <li>
+                      <span>
+                        Resume (one page preferred) showcasing academic,
+                        extracurricular, and work experience
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="apply-section-block">
+                  <h3>Application Steps</h3>
+                  <ol class="application-steps">
+                    <li>
+                      <span class="step-number">1</span>
+                      <div class="step-content">
+                        <h4>Complete the online application</h4>
+                        <p>
+                          Provide contact details, major, year, and student ID.
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <span class="step-number">2</span>
+                      <div class="step-content">
+                        <h4>Upload documents</h4>
+                        <p>
+                          Attach your resume and personal statement in PDF or
+                          DOCX format.
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <span class="step-number">3</span>
+                      <div class="step-content">
+                        <h4>Review and submit</h4>
+                        <p>
+                          Confirm your information and submit the application.
+                          You will receive an email confirmation within 48
+                          hours.
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <span class="step-number">4</span>
+                      <div class="step-content">
+                        <h4>Eligibility verification</h4>
+                        <p>
+                          Membership team verifies student status and materials
+                          (typically 3–5 business days).
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <span class="step-number">5</span>
+                      <div class="step-content">
+                        <h4>Welcome and orientation</h4>
+                        <p>
+                          Accepted members receive an invitation to the next New
+                          Member Orientation and access to member resources and
+                          events.
+                        </p>
+                      </div>
+                    </li>
+                  </ol>
+                </div>
+              </div>
+              <div class="apply-cta-sidebar">
+                <div class="cta-card1">
+                  <h3>Start Your Application</h3>
+                  <p>
+                    Join hundreds of successful professionals who launched their
+                    careers through ALPFA Kean.
+                  </p>
+                  <a href="applynow.html" <button class="btn btn-primary btn-xl">Apply Now</button> </a>
+                  <div class="timeline-info">
+                    <h4>Decision Timeline</h4>
+                    <p>
+                      Confirmation email within 48 hours of submission; final
+                      verification and welcome packet within 3–5 business days.
+                    </p>
+                  </div>
+                  <div class="help-section">
+                    <h4>Need Help?</h4>
+                    <p>
+                      <span>Email</span>
+                      <a href="mailto:keanalpfa@kean.edu?subject="></a>
+                    </p>
+                    <div>
+                      <a href="mailto:keanalpfa@kean.edu?subject=">
+                        <span>keanalpfa@kean.edu</span>
+                      </a>
+                    </div>
+                    <a href="mailto:keanalpfa@kean.edu?subject="></a>
+                    <span>
+                      for guidance on documents or for any questions you may have
+                    </span>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+ 
+    
+              </div>
+              <a href="mailto:keanalpfa@kean.edu?subject="></a>
+              <p></p>
+            </div>
+          </div>
+        </section>
+        <section id="testimonials" class="testimonials-section">
+          <div class="testimonials-container">
+            <div class="testimonials-header">
+              <h2 class="section-title">Member Testimonials</h2>
+              <p class="section-subtitle">
+                Hear from our successful members who transformed their careers
+                through ALPFA Kean
+              </p>
+            </div>
+            <div class="testimonials-carousel">
+              <div id="testimonialsTrack" class="testimonials-track">
+                <div class="testimonial-card">
+                  <div class="testimonial-content">
+                    <p>
+                      "ALPFA Kean transformed my trajectory. Through tailored
+                      workshops and one-on-one mentorship I secured internships
+                      that led to a full-time offer. The chapter's professional
+                      network is rigorous, supportive, and results-driven."
+                    </p>
+                    <div class="testimonial-author">
+                      <img
+                        src="https://images.pexels.com/photos/3184660/pexels-photo-3184660.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940"
+                        alt="Jane Doe 1"
+                        class="author-avatar"
+                      />
+                      <div class="author-info">
+                        <h4>Jane Doe 1</h4>
+                        <span>Class of 2023, Business Analytics</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonial-card">
+                  <div class="testimonial-content">
+                    <p>
+                      "Joining ALPFA Kean sharpened my leadership skills. I led
+                      a campus project that connected students with local
+                      employers and gained measurable experience in stakeholder
+                      management and project delivery."
+                    </p>
+                    <div class="testimonial-author">
+                      <img
+                        src="https://images.pexels.com/photos/4427814/pexels-photo-4427814.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940"
+                        alt="John Doe 1"
+                        class="author-avatar"
+                      />
+                      <div class="author-info">
+                        <h4>John Doe 1</h4>
+                        <span>Class of 2022, Management</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonial-card">
+                  <div class="testimonial-content">
+                    <p>
+                      "The resume clinics and mock interviews were game
+                      changers. Faculty and alumni provided industry-level
+                      feedback that elevated my applications and interview
+                      confidence."
+                    </p>
+                    <div class="testimonial-author">
+                      <img
+                        src="https://images.pexels.com/photos/6931384/pexels-photo-6931384.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940"
+                        alt="Jane Doe 2"
+                        class="author-avatar"
+                      />
+                      <div class="author-info">
+                        <h4>Jane Doe 2</h4>
+                        <span>Class of 2024, Finance</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonial-card">
+                  <div class="testimonial-content">
+                    <p>
+                      "ALPFA Kean opened doors to high-caliber internships
+                      through its employer partnerships. The professional
+                      guidance I received made me a competitive candidate in a
+                      crowded market."
+                    </p>
+                    <div class="testimonial-author">
+                      <img
+                        src="https://images.pexels.com/photos/8297440/pexels-photo-8297440.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940"
+                        alt="Luis G."
+                        class="author-avatar"
+                      />
+                      <div class="author-info">
+                        <h4>Luis G.</h4>
+                        <span>Class of 2021, Accounting</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonial-card">
+                  <div class="testimonial-content">
+                    <p>
+                      "As an international student, the chapter's inclusive
+                      mentorship program helped me navigate U.S. recruiting
+                      practices and professional expectations. The results were
+                      immediate."
+                    </p>
+                    <div class="testimonial-author">
+                      <img
+                        src="https://images.pexels.com/photos/3856035/pexels-photo-3856035.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940"
+                        alt="Amina T."
+                        class="author-avatar"
+                      />
+                      <div class="author-info">
+                        <h4>Amina T.</h4>
+                        <span>Class of 2023, Marketing</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonial-card">
+                  <div class="testimonial-content">
+                    <p>
+                      "The leadership development curriculum is structured and
+                      measurable. I left each session with clear competencies I
+                      could apply in internships and classrooms alike."
+                    </p>
+                    <div class="testimonial-author">
+                      <img
+                        src="https://images.pexels.com/photos/1181233/pexels-photo-1181233.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=650&amp;w=940"
+                        alt="Javier M."
+                        class="author-avatar"
+                      />
+                      <div class="author-info">
+                        <h4>Javier M.</h4>
+                        <span>Class of 2020, Economics</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-controls">
+                <button id="prevBtn" class="carousel-btn prev-btn">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="m15 18l-6-6l6-6"
+                    ></path>
+                  </svg>
+                </button>
+                <button id="nextBtn" class="carousel-btn next-btn">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="m9 18l6-6l-6-6"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="faq" class="faq-section">
+    
+        </section>
+        <section id="contact" class="contact-section">
+          <div class="contact-container">
+            <div class="contact-header">
+              <h2 class="section-title">Contact Kean University's ALPFA  </h2>
+              <p class="section-subtitle">
+                We're here to help you join, grow, and connect with industry
+                leaders
+              </p>
+            </div>
+            <div class="contact-content">
+              <div class="contact-info1">
+                <div class="contact-block">
+                  <h3>Get in Touch</h3>
+                  <div class="contact-item">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      >
+                        <path
+                          d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+                        ></path>
+                        <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                      </g>
+                    </svg>
+                    <div>
+                      <h4>Email Us</h4>
+                      <p>
+                        <a href="mailto:keanalpfa@kean.edu?subject="></a>
+                      </p>
+                      <div>
+                        <a href="mailto:keanalpfa@kean.edu?subject=">
+                          <span>keanalpfa@kean.edu</span>
+                        </a>
+                      </div>
+                      <a href="mailto:keanalpfa@kean.edu?subject="></a>
+                      <p></p>
+                      <span>Response within 72 hours</span>
+                    </div>
+                  </div>
+                
+                </div>
+                <div class="contact-block">
+                  <h3>Leadership Connect</h3>
+                  <p>
+                    Want to speak with our President or Membership Director?
+                    Request a meeting via email and indicate your preferred date
+                    and topic.
+                  </p>
+                </div>
+              </div>
+              <div class="social-newsletter">
+                <div class="social-block">
+                  <h3>Follow Us</h3>
+                  <p>
+                    Stay current on professional development events, speaker
+                    sessions, and networking opportunities.
+                  </p>
+                  <div class="social-links">
+                    <a href="https://www.linkedin.com/in/alpfa-kean-university/">
+                      <div aria-label="LinkedIn" class="social-link">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                        >
+                          <g
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                          >
+                            <path
+                              d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2a2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6M2 9h4v12H2z"
+                            ></path>
+                            <circle cx="4" cy="4" r="2"></circle>
+                          </g>
+                        </svg>
+                      </div>
+                    </a>
+                    <a href="#">
+                      <div aria-label="Instagram" class="social-link">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                        >
+                          <g
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                          >
+                            <rect
+                              width="20"
+                              height="20"
+                              x="2"
+                              y="2"
+                              rx="5"
+                              ry="5"
+                            ></rect>
+                            <path
+                              d="M16 11.37A4 4 0 1 1 12.63 8A4 4 0 0 1 16 11.37m1.5-4.87h.01"
+                            ></path>
+                          </g>
+                        </svg>
+                      </div>
+                    </a>
+                    <a href="#">
+                      <div aria-label="Facebook" class="social-link">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </a>
+                  
+                  </div>
+                </div>
+             
+              </div>
+            </div>
+          </div>
+        </section>
+       
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-newsletter-banner">
+                <div class="footer-newsletter-content">
+                  <div class="footer-newsletter-text">
+                    <h3 class="footer-newsletter-title">
+                      Stay Updated on Opportunities
+                    </h3>
+                    <p class="footer-newsletter-description">
+                      Get the latest news on workshops, networking events, and
+                      career opportunities delivered to your inbox.
+                    </p>
+                  </div>
+                  <div class="footer-newsletter-form">
+                    <input
+                      type="email"
+                      placeholder="Enter your email address"
+                      aria-label="Email address for newsletter"
+                      class="footer-newsletter-input"
+                    />
+                    <button
+                      type="submit"
+                      class="footer-newsletter-btn btn btn-primary"
+                    >
+                      Subscribe
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-bottom-section">
+                <div class="footer-bottom-content">
+                  <div class="footer-copyright">
+                    <p class="footer-copyright-text">
+                      © 2025 ALPFA Kean Chapter. All rights reserved.
+                    </p>
+                    <p class="footer-affiliation">
+                      Affiliated with the Association of Latino Professionals
+                      for America
+                    </p>
+                  </div>
+                  <div class="footer-legal-links">
+                    <a href="#">
+                      <div class="footer-legal-link">
+                        <span>Privacy Policy</span>
+                      </div>
+                    </a>
+                    <a href="#">
+                      <div class="footer-legal-link">
+                        <span>Terms of Service</span>
+                      </div>
+                    </a>
+                    <a href="#">
+                      <div class="footer-legal-link">
+                        <span>Code of Conduct</span>
+                      </div>
+                    </a>
+                    <a href="#">
+                      <div class="footer-legal-link">
+                        <span>Accessibility</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </footer>
+          </div>
+        </footer-wrapper>
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 19 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="membership-icon83"
+            >
+            
+            </svg
+          </div>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
