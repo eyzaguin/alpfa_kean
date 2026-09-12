@@ -91,79 +91,7 @@
             </div>
             <div class="navigation-container4">
               <div class="navigation-container5">
-                <script defer="" data-name="navigation">
-                  (function(){
-                    const navigationToggle = document.getElementById('navigationToggle')
-                    const navigationOverlay = document.getElementById('navigationOverlay')
-                    const navigationLinks = document.getElementById('navigationLinks')
-
-                    function toggleMobileMenu() {
-                      const isExpanded = navigationToggle.getAttribute('aria-expanded') === 'true'
-                      const newState = !isExpanded
-
-                      navigationToggle.setAttribute('aria-expanded', newState.toString())
-
-                      if (newState) {
-                        navigationOverlay.classList.add('navigation-mobile-active')
-                        document.body.style.overflow = 'hidden'
-                      } else {
-                        navigationOverlay.classList.remove('navigation-mobile-active')
-                        document.body.style.overflow = ''
-                      }
-                    }
-
-                    function closeMobileMenu() {
-                      navigationToggle.setAttribute('aria-expanded', 'false')
-                      navigationOverlay.classList.remove('navigation-mobile-active')
-                      document.body.style.overflow = ''
-                    }
-
-                    // Toggle menu on button click
-                    navigationToggle.addEventListener('click', toggleMobileMenu)
-
-                    // Close menu when clicking on mobile links
-                    const mobileLinks = navigationOverlay.querySelectorAll(
-                      '.navigation-mobile-link'
-                    )
-                    mobileLinks.forEach((link) => {
-                      link.addEventListener('click', closeMobileMenu)
-                    })
-
-                    // Close menu on escape key
-                    document.addEventListener('keydown', (e) => {
-                      if (
-                        e.key === 'Escape' &&
-                        navigationOverlay.classList.contains('navigation-mobile-active')
-                      ) {
-                        closeMobileMenu()
-                      }
-                    })
-
-                    // Close menu when clicking outside on larger screens
-                    document.addEventListener('click', (e) => {
-                      const isClickInsideNav =
-                        navigationToggle.contains(e.target) ||
-                        navigationOverlay.contains(e.target)
-
-                      if (
-                        !isClickInsideNav &&
-                        navigationOverlay.classList.contains('navigation-mobile-active')
-                      ) {
-                        closeMobileMenu()
-                      }
-                    })
-
-                    // Handle window resize to close mobile menu when switching to desktop
-                    window.addEventListener('resize', () => {
-                      if (
-                        window.innerWidth > 991 &&
-                        navigationOverlay.classList.contains('navigation-mobile-active')
-                      ) {
-                        closeMobileMenu()
-                      }
-                    })
-                  })()
-                </script>
+                <script src="./navigation.js" defer></script>
               </div>
             </div>
             <nav
@@ -219,7 +147,7 @@
                   id="navigationToggle"
                   aria-label="Toggle navigation menu"
                   aria-expanded="false"
-                  aria-controls="navigationLinks"
+                  aria-controls="navigationOverlay"
                   class="navigation-mobile-toggle"
                 >
                   <span
@@ -241,7 +169,7 @@
                       ></path>
                     </svg>
                   </span>
-                  <span class="navigation-navigation-toggle-icon2">
+                  <span class="navigation-navigation-toggle-icon2 navigation-toggle-close">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
