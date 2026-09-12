@@ -55,6 +55,11 @@
   width: 100%;
   display: block;
   min-height: 100vh;
+  padding-top: calc(var(--navigation-height, 100px) + var(--spacing-lg));
+}
+
+.mentorship-career-resources-container10 .hero-content2 {
+  align-items: start;
 }
  
 .mentorship-career-resources-container11 {

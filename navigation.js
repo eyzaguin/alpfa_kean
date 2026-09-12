@@ -4,6 +4,15 @@ const overlay = document.getElementById('navigationOverlay');
 const desktopLinks = document.getElementById('navigationLinks');
 
 if (toggle && overlay && desktopLinks) {
+  const navigationBar = toggle.closest('nav');
+  function updateNavigationHeight() {
+    document.documentElement.style.setProperty(
+      '--navigation-height', `${navigationBar.getBoundingClientRect().height}px`
+    );
+  }
+  updateNavigationHeight();
+  new ResizeObserver(updateNavigationHeight).observe(navigationBar);
+
   // Keep mobile destinations and labels in sync with this page's desktop menu.
   const list = overlay.querySelector('.navigation-mobile-list');
   list.replaceChildren(...Array.from(desktopLinks.querySelectorAll('a'), (link) => {
